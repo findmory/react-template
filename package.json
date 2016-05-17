@@ -1,0 +1,38 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "description": "Template for ReactJS project powered by Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "production": "webpack -p",
+    "start": "webpack-dev-server --port 9999"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/findmory/react-template.git"
+  },
+  "author": "Mike Ory <findmory@gmail.com>",
+  "license": "ISC",
+   "dependencies": {
+    "axios": "^0.11.0",
+    "react": "^15.0.1",
+    "react-addons-css-transition-group": "^15.0.2",
+    "react-dom": "^15.0.1",
+    "react-router": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.15.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "bugs": {
+    "url": "https://github.com/findmory/react-template/issues"
+  },
+  "homepage": "https://github.com/findmory/react-template#readme"
+}
